@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Tetris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Tetris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "grid.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp",
+              "RelativeDocumentMoniker": "Tetris\\grid.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp",
+              "RelativeToolTip": "Tetris\\grid.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-18T18:28:20.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "grid.h",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h",
+              "RelativeDocumentMoniker": "Tetris\\grid.h",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h",
+              "RelativeToolTip": "Tetris\\grid.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T18:27:54.503Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +58,9 @@
               "RelativeDocumentMoniker": "Tetris\\Tetris.cpp",
               "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Tetris.cpp",
               "RelativeToolTip": "Tetris\\Tetris.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-18T17:41:24.315Z",
+              "WhenOpened": "2025-02-18T18:25:51.677Z",
               "EditorCaption": ""
             }
           ]
