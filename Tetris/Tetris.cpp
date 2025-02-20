@@ -13,6 +13,7 @@ int main() {
 	while (WindowShouldClose() == false) {
 		BeginDrawing();
 		ClearBackground(darkBlue);
+		grid.Draw();
 		DrawFPS(10, 10);
 		EndDrawing();
 	}
