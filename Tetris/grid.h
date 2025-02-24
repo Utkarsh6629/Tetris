@@ -11,7 +11,6 @@ public:
 	void print();
 	void Draw();
 private:
-	vector<Color> GetCellColors();
 	int rowNum, colNum;
 	int cellSize;
 	vector<Color> colors;

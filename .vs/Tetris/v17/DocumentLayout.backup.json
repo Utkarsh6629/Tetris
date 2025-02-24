@@ -7,12 +7,40 @@
       "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Tetris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Blocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Blocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Postion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Postion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Colors.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\Colors.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\colors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55653CF1-622D-401B-A8B3-D875F5E58C43}|Tetris\\Tetris.vcxproj|solutionrelative:Tetris\\colors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +50,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "postion.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\postion.cpp",
+              "RelativeDocumentMoniker": "Tetris\\postion.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\postion.cpp",
+              "RelativeToolTip": "Tetris\\postion.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-24T19:02:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "position.h",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\position.h",
+              "RelativeDocumentMoniker": "Tetris\\position.h",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\position.h",
+              "RelativeToolTip": "Tetris\\position.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-24T18:56:16.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "blocks.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\blocks.cpp",
+              "RelativeDocumentMoniker": "Tetris\\blocks.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\blocks.cpp",
+              "RelativeToolTip": "Tetris\\blocks.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-24T18:42:50.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "block.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\block.cpp",
+              "RelativeDocumentMoniker": "Tetris\\block.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\block.cpp*",
+              "RelativeToolTip": "Tetris\\block.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-24T18:40:27.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "colors.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\colors.cpp",
+              "RelativeDocumentMoniker": "Tetris\\colors.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\colors.cpp",
+              "RelativeToolTip": "Tetris\\colors.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-24T18:29:52.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "colors.h",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\colors.h",
+              "RelativeDocumentMoniker": "Tetris\\colors.h",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\colors.h",
+              "RelativeToolTip": "Tetris\\colors.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-24T18:26:12.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "block.h",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\block.h",
+              "RelativeDocumentMoniker": "Tetris\\block.h",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\block.h*",
+              "RelativeToolTip": "Tetris\\block.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-24T18:19:28.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "grid.cpp",
               "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp",
               "RelativeDocumentMoniker": "Tetris\\grid.cpp",
               "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.cpp",
               "RelativeToolTip": "Tetris\\grid.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-18T18:28:20.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "grid.h",
               "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h",
               "RelativeDocumentMoniker": "Tetris\\grid.h",
               "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\grid.h",
               "RelativeToolTip": "Tetris\\grid.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-18T18:27:54.503Z",
               "EditorCaption": ""
@@ -53,12 +172,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tetris.cpp",
-              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Tetris.cpp",
-              "RelativeDocumentMoniker": "Tetris\\Tetris.cpp",
-              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\Tetris.cpp",
-              "RelativeToolTip": "Tetris\\Tetris.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Title": "tetris.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\tetris.cpp",
+              "RelativeDocumentMoniker": "Tetris\\tetris.cpp",
+              "ToolTip": "C:\\Users\\utkar\\source\\repos\\Tetris\\Tetris\\tetris.cpp",
+              "RelativeToolTip": "Tetris\\tetris.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-18T18:25:51.677Z",
               "EditorCaption": ""
