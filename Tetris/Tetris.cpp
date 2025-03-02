@@ -1,22 +1,19 @@
 #include<raylib.h>
-#include "grid.h"
 #include<iostream>
-#include "blocks.cpp"
+#include "Game.h"
 
 using namespace std;
 
 int main() {
 	Color darkBlue = { 44,44,127,255 };
 	InitWindow(300, 600, "Tetris");
-	Grid grid = Grid();
-	grid.print();
-	LBlock block = LBlock();
+	Game game = Game();
 	SetTargetFPS(60);
 	while (WindowShouldClose() == false) {
 		BeginDrawing();
 		ClearBackground(darkBlue);
-		grid.Draw();
-		block.Draw();
+		game.handleInput();
+		game.Draw();
 		DrawFPS(10, 10);
 		EndDrawing();
 	}

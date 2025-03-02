@@ -20,14 +20,14 @@ void Grid::Initialize() {
 	}
 }
 
-void Grid::print() {
-	for (int row = 0;row < rowNum;row++) {
-		for (int col = 0; col < colNum;col++) {
-			cout << grid[row][col]<<" ";
-		}
-		cout << endl;
+bool Grid::isCellOutside(int row, int col)
+{
+	if (row >= 0 && row < rowNum && col >= 0 && col < colNum) {
+		return false;
 	}
+	return true;
 }
+
 
 
 
