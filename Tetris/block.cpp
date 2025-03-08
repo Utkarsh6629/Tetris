@@ -45,6 +45,6 @@ void Block::derotate()
 {
 	rotationState--;
 	if (rotationState == -1) {
-		rotationState - cells.size() - 1;
+		rotationState - (int)cells.size() - 1;
 	}
 }

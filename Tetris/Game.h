@@ -18,6 +18,8 @@ public:
 private:
 	bool isBlockOutside();
 	void rotateBlock();
+	void lockBlock();
+	bool blockFits();
 	vector<Block> Blocks;
 	Block currentBlock;
 	Block nextBlock;

@@ -1,7 +1,6 @@
 ﻿  Game.cpp
-  block.cpp
-C:\Users\utkar\source\repos\Tetris\Tetris\block.cpp(48,32): warning C4552: '-': result of expression not used
-  blocks.cpp
+  grid.cpp
+  tetris.cpp
   Generating Code...
   Tetris.vcxproj -> C:\Users\utkar\source\repos\Tetris\x64\Debug\Tetris.exe
   'pwsh.exe' is not recognized as an internal or external command,

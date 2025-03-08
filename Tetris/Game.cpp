@@ -37,22 +37,23 @@ void Game::handleInput(){
 
 void Game::moveBlockLeft() {
 	currentBlock.Move(0, -1);
-	if (isBlockOutside()) {
+	if (isBlockOutside()|| blockFits() == false) {
 		currentBlock.Move(0, 1);
 	}
 }
 
 void Game::moveBlockRight() {
 	currentBlock.Move(0, 1);
-	if (isBlockOutside()) {
+	if (isBlockOutside()|| blockFits() == false) {
 		currentBlock.Move(0, -1);
 	}
 }
 
 void Game::moveBlockDown() {
 	currentBlock.Move(1, 0);
-	if (isBlockOutside()) {
+	if (isBlockOutside() || blockFits() == false) {
 		currentBlock.Move(-1, 0);
+		lockBlock();
 	}
 }
 
@@ -84,4 +85,26 @@ void Game::rotateBlock()
 	if (isBlockOutside()) {
 		currentBlock.derotate();
 	}
+}
+
+void Game::lockBlock()
+{
+	vector<Position> tiles = currentBlock.getCellsPositions();
+	for (Position item : tiles) {
+		grid.grid[item.row][item.col] = currentBlock.id;
+	}
+	currentBlock = nextBlock;
+	nextBlock = getRandomBlock(); 
+	grid.clearFullRows();
+}
+
+bool Game::blockFits()
+{
+	vector<Position> tiles = currentBlock.getCellsPositions();
+	for (Position item : tiles) {
+		if (grid.isCellEmpty(item.row, item.col) == false) {
+			return false;
+		}
+	}
+	return true;	 
 }
