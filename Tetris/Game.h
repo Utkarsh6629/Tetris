@@ -15,6 +15,7 @@ public:
 	vector<Block> getAllBlocks();
 	void Draw();
 	Grid grid;
+	bool gameOver;
 private:
 	bool isBlockOutside();
 	void rotateBlock();
@@ -23,4 +24,5 @@ private:
 	vector<Block> Blocks;
 	Block currentBlock;
 	Block nextBlock;
+	void Reset(); 
 };

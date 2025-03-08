@@ -5,6 +5,7 @@ Game::Game() {
 	Blocks = getAllBlocks();
 	currentBlock = getRandomBlock();
 	nextBlock = getRandomBlock();
+	gameOver = false;
 }
 Block Game::getRandomBlock() {
 	if (Blocks.empty())
@@ -19,6 +20,10 @@ Block Game::getRandomBlock() {
 
 void Game::handleInput(){
 	int keyPressed = GetKeyPressed();
+	if (gameOver && keyPressed != 0) {
+		gameOver = false;
+		Reset();
+	}
 	switch (keyPressed) {
 	case (KEY_LEFT):
 		moveBlockLeft();
@@ -36,24 +41,30 @@ void Game::handleInput(){
 }
 
 void Game::moveBlockLeft() {
-	currentBlock.Move(0, -1);
-	if (isBlockOutside()|| blockFits() == false) {
-		currentBlock.Move(0, 1);
+	if (!gameOver) {
+		currentBlock.Move(0, -1);
+		if (isBlockOutside() || blockFits() == false) {
+			currentBlock.Move(0, 1);
+		}
 	}
 }
 
 void Game::moveBlockRight() {
-	currentBlock.Move(0, 1);
-	if (isBlockOutside()|| blockFits() == false) {
-		currentBlock.Move(0, -1);
+	if (!gameOver) {
+		currentBlock.Move(0, 1);
+		if (isBlockOutside() || blockFits() == false) {
+			currentBlock.Move(0, -1);
+		}
 	}
 }
 
 void Game::moveBlockDown() {
-	currentBlock.Move(1, 0);
-	if (isBlockOutside() || blockFits() == false) {
-		currentBlock.Move(-1, 0);
-		lockBlock();
+	if (!gameOver) {
+		currentBlock.Move(1, 0);
+		if (isBlockOutside() || blockFits() == false) {
+			currentBlock.Move(-1, 0);
+			lockBlock();
+		}
 	}
 }
 
@@ -81,10 +92,12 @@ bool Game::isBlockOutside()
 
 void Game::rotateBlock()
 {	
-	currentBlock.rotate();
-	if (isBlockOutside()) {
-		currentBlock.derotate();
-	}
+	if (!gameOver) {
+		currentBlock.rotate();
+		if (isBlockOutside()) {
+			currentBlock.derotate();
+		}
+	} 
 }
 
 void Game::lockBlock()
@@ -94,6 +107,9 @@ void Game::lockBlock()
 		grid.grid[item.row][item.col] = currentBlock.id;
 	}
 	currentBlock = nextBlock;
+	if (blockFits() == false) {
+		gameOver = true;
+	}
 	nextBlock = getRandomBlock(); 
 	grid.clearFullRows();
 }
@@ -107,4 +123,12 @@ bool Game::blockFits()
 		}
 	}
 	return true;	 
+}
+
+void Game::Reset()
+{
+	grid.Initialize();
+	Blocks = getAllBlocks();
+	currentBlock = getRandomBlock();
+	nextBlock = getRandomBlock();
 }
